@@ -1,0 +1,18 @@
+[
+    {
+        "artist": "Michael Jackson",
+        "title": "Bad",
+        "Year": "1987",
+        "genre": "Pop-Rock",
+        "cover" : "https://upload.wikimedia.org/wikipedia/it/thumb/a/ab/Michael_Jackson_Bad.jpg/260px-Michael_Jackson_Bad.jpg"
+    },
+    {
+        "artist": "Ice Cube",
+        "title": "It Was a Good Day",
+        "Year": "1992",
+        "genre": "West Coast HH",
+        "cover" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Good_Day_Predator.jpg/220px-Good_Day_Predator.jpg"
+    },
+
+    
+]
