@@ -13,6 +13,33 @@
         "genre": "West Coast HH",
         "cover" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Good_Day_Predator.jpg/220px-Good_Day_Predator.jpg"
     },
+    {
+        "artist": "Kendrick Lamar",
+        "title": "N95",
+        "Year": "2022",
+        "genre": "Trap Conscious HH",
+        "cover" : "https://cdns-images.dzcdn.net/images/cover/412361ce41f0bd2595978dbf0e035ad3/500x500.jpg"
+    },
+    {
+        "artist": "Ice Cube",
+        "title": "It Was a Good Day",
+        "Year": "1992",
+        "genre": "West Coast HH",
+        "cover" : "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Good_Day_Predator.jpg/220px-Good_Day_Predator.jpg"
+    }, {
+        "artist": "Dr.Dre/2Pac",
+        "title": "California Love",
+        "Year": "1995",
+        "genre": "West-Coast Gangsta Rap",
+        "cover" : "https://upload.wikimedia.org/wikipedia/it/thumb/1/1c/CaliforniaLove.JPG/260px-CaliforniaLove.JPG"
+    },
+    {
+        "artist": "Eminem",
+        "title": "Rap God",
+        "Year": "2013",
+        "genre": "Hip Hop",
+        "cover" : "https://upload.wikimedia.org/wikipedia/it/thumb/c/c2/Rap_God.jpg/260px-Rap_God.jpg"
+    }
 
-    
+
 ]
