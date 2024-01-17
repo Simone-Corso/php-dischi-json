@@ -6,3 +6,21 @@ header{
     background-color: #0D161E;
     height: 75px;
 }
+
+main{
+    background-color: #1D2D3C;
+}
+
+main article .my_img-container{
+    width: 250px;
+}
+
+main article .my_title,
+main article .my_date{
+    color: #112030;
+}
+
+main.my_cards-container article{
+    background-color: #112030;
+    width: calc(50% - 10px);
+}
