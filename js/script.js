@@ -10,7 +10,7 @@ createApp({
     methods: {
         getAlbumList() {
             axios.get(this.apriUrl).then((response)=> {
-                this.albumList = respose.data;
+                this.albumList = response.data;
                 console.log(response.data);
             })
         }
