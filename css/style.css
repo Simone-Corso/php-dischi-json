@@ -2,6 +2,11 @@ body{
     background-color: #1D2D3C;
 }
 
+div.album-element{
+    background-color: #112030;
+    color: white;
+    text-align: center;
+}
 
 
 

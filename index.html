@@ -20,21 +20,21 @@
         </header>
 
         <div class="container">
-            <div class="row">
-                <div class="card col-2 album-element" v-for="(element, index) in albumList" :key="index">
+            <div class="row justify-content-center mt-5">
+                <div class="card col-2 album-element mb-4 mx-4" v-for="(element, index) in albumList" :key="index">
                     <img :src="element.cover" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">
+                      <p class="card-text text-center">
                         <b>
                             {{element.title}}
                         </b>
                       </p>
-                      <p class="card-text">
+                      <p class="card-text text-center">
                         <b>
                             {{element.artist}}
                         </b>
                       </p>
-                      <p class="card-text">
+                      <p class="card-text text-center">
                         <b>
                             {{element.year}}
                         </b>
