@@ -22,9 +22,23 @@
         <div class="container">
             <div class="row">
                 <div class="card col-2 album-element" v-for="(element, index) in albumList" :key="index">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img :src="element.cover" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text"></p>
+                      <p class="card-text">
+                        <b>
+                            {{element.title}}
+                        </b>
+                      </p>
+                      <p class="card-text">
+                        <b>
+                            {{element.artist}}
+                        </b>
+                      </p>
+                      <p class="card-text">
+                        <b>
+                            {{element.year}}
+                        </b>
+                      </p>
                     </div>
                   </div>
             </div>
