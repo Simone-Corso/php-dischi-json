@@ -11,7 +11,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <div id="app"></div>
+<div id="app">
+    <header>
+        <div class="container-fluid">
+            <a href='#' class="my_img-container ms-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/512px-Spotify_logo_without_text.svg.png"
+                    alt="logo" class="ms-4 mt-2" style="width: 50px; height: 50px;">
+            </a>
+        </div>
+    </header>
+</div>
+
+
+
+
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
