@@ -21,7 +21,7 @@
 
         <div class="container">
             <div class="row justify-content-center mt-5">
-                <div class="card col-2 album-element mb-4 mx-4" v-for="(element, index) in albumList" :key="index">
+                <div class="card col-2 album-element mb-4 mx-4" v-for="(element, index) in albumList" :key="index" data-bs-toggle="modal" :data-bs-target="'#album-modal-' + index">
                     <img :src="element.cover" class="card-img-top" alt="...">
                     <div class="card-body">
                       <p class="card-text text-center">
@@ -40,6 +40,28 @@
                         </b>
                       </p>
                     </div>
+             <div class="modal fade" :id="'album-modal-' + index"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img :src="element.cover" class="card-img-top" alt="...">
+                                <div class="card-modal">
+                                    <p class="card-body text-center">
+                                        <b>
+                                            {{ element.title }}
+                                        </b>
+                                    </p>
+                                    <p class="card-body text-center">
+                                        {{ element.artist }}
+                                    </p>
+                                    <p class="card-body text-center">
+                                        {{ element.year }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                   </div>
             </div>
         </div>
